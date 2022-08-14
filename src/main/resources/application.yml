@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/credit_application_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: sakarya5454
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  sql:
+    init:
+      mode: always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  main:
+    allow-circular-references: false
+server:
+  port: 8080
+
+###### Security Configs
+# 5 minutes duration by default: 5 minutes * 60 seconds * 1000 milliseconds
+security:
+  jwt:
+    token:
+      secret-key:secret-key
+    expire:
+      90000000000000000000
