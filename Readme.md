@@ -5,6 +5,13 @@ It is a restful credit application system that receives credit application reque
 
 ## Requirements
 * New customers can be created in the system, existing customers can be updated or deleted.
+* If the credit score is below 500, the customer will be rejected. (Credit result: Rejected)
+* If the credit score is between 500 points and 1000 points and the monthly income is below 5000 TL, the credit application of the customer is approved and a limit of 10.000 TL is assigned to the customer. (Credit Result: Aproved)
+* If the credit score is between 500 points and 1000 points and the monthly income is above 5000 TL, the credit application of the customer is approved and a 20.000 TL limit is assigned to the customer. (Credit Result: Approved)
+* If the credit score is equal to or above 1000 points, the customer is assigned a limit equal to MONTHLY INCOME * CREDIT LIMIT MULTIPLIER.The credit limit multiplier is 4 by default. (Credit Result: Approved)
+* As a result of the conclusion of the credit, the relevant application is recorded in the database. Afterwards, an informative SMS is sent to the relevant phone number and the approval status information (rejection or approval), limit information is returned from the endpoint.
+* A completed loan application can only be queried with an national ID number.
+
 
 ## API Using
 
