@@ -58,6 +58,7 @@ Can terminate the credit application
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/489be21d79699cc70712?action=collection%2Fimport)
 
 ## Entity Relationship Diagram
+![DataBaseDesign2](https://user-images.githubusercontent.com/107641642/184563811-f92764ab-5727-4289-8128-8a4bc429f7ff.png)
 
 ## Swagger
 [![View in Swagger](http://jessemillar.github.io/view-in-swagger-button/button.svg)](http://localhost:8080/swagger-ui/index.html)
