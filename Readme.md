@@ -3,6 +3,8 @@
 
 It is a restful credit application system that receives credit application requests and returns the credit result to the customer according to the relevant criteria. It is written using the Spring Boot framework. The project has been tried to be done in accordance with Solid principles.
 
+## Requirements
+* New customers can be created in the system, existing customers can be updated or deleted.
 
 ## API Using
 
