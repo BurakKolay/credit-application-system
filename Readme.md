@@ -62,3 +62,7 @@ Can terminate the credit application
 
 ## Swagger
 [![View in Swagger](http://jessemillar.github.io/view-in-swagger-button/button.svg)](http://localhost:8080/swagger-ui/index.html)
+![userController](https://user-images.githubusercontent.com/107641642/184563878-d3388b2a-145c-4dd8-8855-8c8b0bb22e09.png)
+![customerController](https://user-images.githubusercontent.com/107641642/184563885-e2b69c62-2859-4968-83fa-2a7d9ad41560.png)
+![creditController](https://user-images.githubusercontent.com/107641642/184563899-9935db5e-2aa4-4b14-89ad-a6d73a0365bc.png)
+
